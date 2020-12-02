@@ -1,5 +1,5 @@
 def maximizar(As, D):
-    As = mergeSort(As)
+    As.sort(key=lambda x: x[1])
     total = 0
     secuencia = []
 
